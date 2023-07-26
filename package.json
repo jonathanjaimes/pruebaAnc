@@ -1,5 +1,5 @@
 {
-  "name": "01_pruebas",
+  "name": "ancla",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,36 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.4.5",
-    "@types/react": "18.2.16",
-    "@types/react-dom": "18.2.7",
+    "@apollo/client": "^3.7.12",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.35",
+    "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.12",
-    "next": "13.4.12",
-    "postcss": "8.4.27",
+    "aws-appsync-auth-link": "^3.0.7",
+    "aws-appsync-subscription-link": "^3.1.2",
+    "cookie": "^0.5.0",
+    "cookies-next": "^2.1.1",
+    "cors": "^2.8.5",
+    "daisyui": "^2.51.6",
+    "dotenv": "^16.0.3",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "graphql": "^16.6.0",
+    "jose": "^4.14.4",
+    "jsonwebtoken": "^8.5.1",
+    "material-symbols": "^0.5.5",
+    "next": "13.3.0",
+    "postcss": "8.4.21",
     "react": "18.2.0",
+    "react-datepicker": "^4.12.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.1.6"
+    "react-hook-form": "^7.43.9",
+    "react-select": "^5.7.3",
+    "react-toastify": "^9.1.2",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0",
+    "zustand": "^4.3.8"
   }
 }
